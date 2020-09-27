@@ -1,0 +1,199 @@
+:root {
+  --logo-font: 'Raleway', sans-serif;
+  --basic-font: 'Roboto', sans-serif;
+  --basic-text-color: rgb(33, 33, 33); /*#212121*/
+  --description-text-color: rgb(117, 117, 117); /*#757575*/
+  --accent-text-color: rgb(33, 150, 243); /*#2196F3*/
+}
+
+body {
+  font-family: var(--basic-font);
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+.logo .logo-header {
+  color: rgb(0, 0, 0);
+}
+
+.logo .logo-footer {
+  color: rgb(255, 255, 255);
+}
+
+#active-page {
+  color: var(--accent-text-color);
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--basic-text-color);
+}
+
+.header-address-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--description-text-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgb(255, 255, 255);
+  background: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  outline-style: none;
+}
+
+.benefits-list-item > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--basic-text-color);
+}
+
+.benefits-list-item > p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+}
+
+.direction-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-text-color);
+}
+
+.team-list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-text-color);
+}
+
+.team-list-item-spec {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+}
+
+.footer-address-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer a[title='location'] {
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  background-color: rgb(47, 48, 58);
+}
+
+.portfolio-filter-item-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-text-color);
+  background-color: rgb(245, 244, 250);
+  border-radius: 4px;
+  border-style: none;
+}
+
+.portfolio-filter-item-btn:hover,
+.portfolio-filter-item-btn:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline-style: none;
+}
+
+.portfolio-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--basic-text-color);
+}
+
+.portfolio-list-item > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+}
